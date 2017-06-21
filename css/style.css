@@ -48,6 +48,11 @@ CONTENTS:
 div, article, section, header, footer, nav, li {
 	position:relative;
 }
+
+#resume{
+	top: 2em;
+	left: 15em;
+}
 .group:after {
 	display:block;
 	height:0;
