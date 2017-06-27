@@ -59,10 +59,7 @@ div, article, section, header, footer, nav, li {
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
 
-#resume{
-	top: 2em;
-	left: 15em;
-}
+
 .group:after {
 	display:block;
 	height:0;
@@ -71,7 +68,7 @@ div, article, section, header, footer, nav, li {
 	visibility:hidden; /* For clearing */
 }
 body {
-	background:#fff;
+	background:#E5EDF5;
 	color: #444;
 	font-size: 16px;
 	font-weight:300;
@@ -386,7 +383,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/Rockies.jpg) no-repeat center center fixed;
+	background: #444 url(../img/Iceland.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -487,12 +484,12 @@ section.inner {
 /* === section spacer === */
 
 section.spacer {
-	padding:90px 0 70px;
+	padding:30px 0 20px;
 	color:#fcfcfc;
 }
 
 .spacer.green,.section.green {
-	background: #C5D7ED;
+	background: #3B4551;
 }
 
 .spacer.green,.section.green h4 {
@@ -514,7 +511,7 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-	background: url(../img/bg/bg-3.jpg) 50% no-repeat fixed;
+	background: url(../img/Rockies.jpg) 50% no-repeat fixed;
 	width:100%;
 	height: auto;
 	
@@ -843,9 +840,9 @@ section#blog {
 
 /* === section about === */
 
-section#about {
+/*section #about {
 	background:#f2f2f2;
-}
+}*/
 
 .people {
 	text-align:center;
@@ -1674,7 +1671,7 @@ i.icon-white {
     /* Smartphones (portrait and landscape) ----------- */
 @media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
 
- section.section {
+section .section {
  padding: 1em 0;
 }
 
