@@ -49,6 +49,16 @@ div, article, section, header, footer, nav, li {
 	position:relative;
 }
 
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
 #resume{
 	top: 2em;
 	left: 15em;
@@ -390,6 +400,7 @@ header .logo {
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
+	padding-bottom: 10px;
 	color:#fff;
 }
 #main-flexslider.flexslider {
@@ -481,7 +492,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background: #C5D7ED;
 }
 
 .spacer.green,.section.green h4 {
@@ -1561,6 +1572,7 @@ i.icon-white {
 .navbar-inverse .btn-navbar {
 	width: auto;
 	height: auto;
+	background-color: transparent !important;
 }
 
 /* =========================================================
@@ -1704,11 +1716,86 @@ i.icon-white {
  margin-right: auto;
 }
 		
-/* Contact Form */
+/* Contact Form 
 	#contact-form {
 		overflow: hidden;
 	}
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}*/
+
+/* Contact Section
+--------------------------------*/
+#contact {
+  background: #DFE2ED;
+  padding: 80px 0;
+}
+
+#contact .info {
+  color: #333333;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #03C4EB;
+  float: left;
+}
+
+#contact .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+.linkedin {
+  color: black;
+}
+
+#contact .form #sendmessage {
+  color: #03C4EB;
+  border: 1px solid #03C4EB;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input, #contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#contact .form button[type="submit"] {
+  background: #03C4EB;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #25d8fc;
 }
