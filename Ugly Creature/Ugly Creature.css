@@ -1,0 +1,601 @@
+  .wrapper{
+  margin: 5px;
+}
+.face{
+  width: 700px;
+  height:230px;
+  border: solid 10px black;
+  background-color: navy;
+  border-radius: 400px;
+  margin: 200px;
+  
+}
+.mouth{
+  width: 150px;
+  height: 180px;
+  border: solid 5px black;
+  border-radius: 1000px 100px 1000px 100px;
+  margin: 425px;
+  position: absolute;
+  top: -25em;
+  left: 4.5em;
+  background-color:black;
+  z-index: 1;
+  
+}
+
+.teeth{
+  top: -6.5em;
+  left: em;
+  position: relative;
+}
+
+.ear1{
+  width: 200px;
+  height: 120px;
+  border: solid 10px orange;
+  background-color: darkred;
+  border-radius: 10px 100px 1px 100px;
+  margin: 500px;
+  position: relative;
+  top: -58em;
+  left: -24em;
+  z-index: 1;
+  -webkit-transform: rotate(35deg);
+       -moz-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+         -o-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
+
+.ear2{
+  width: 200px;
+  height: 120px;
+  border: solid 10px orange;
+  background-color: darkred;
+  border-radius: 1000px 1px 1000px 1px;
+  margin: 500px;
+  position: relative;
+  top: -98.5em;
+  left: 15em;
+  z-index: 1;
+  -webkit-transform: rotate(35deg);
+       -moz-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+         -o-transform: rotate(35deg);
+            transform: rotate(320deg);
+}
+
+
+.righteye{
+  width: 200px;
+  height: 100px;
+  border: solid 10px white;
+  border-radius: 1000px 5px 1000px .5px;
+  z-index: 1; /*The z-index property specifies the stack order of an element. An element with
+  greater stack order is always in front of an element with a lower stack order. Note: z-index 
+  only works on positioned elements*/
+  position: relative;
+  left: 650px;
+  top: -3530px;
+  background-color: black
+}
+
+#inner-right{
+  width: 100px;
+  height: 50px;
+  border: solid 10px white;
+  border-radius: 1000px 5px 1000px .5px;
+  position: relative;
+  left:-7px;
+  top: 40px;
+  background-color: red
+}
+
+.lefteye{
+  width: 200px;
+  height: 100px;
+  border: solid 10px white;
+  border-radius: 5px 1000px .5px 1000px;
+  z-index: 1; /*The z-index property specifies the stack order of an element. An element with
+  greater stack order is always in front of an element with a lower stack order. Note: z-index 
+  only works on positioned elements*/
+  position: relative;
+  left: 250px;
+  top: -3410px;
+  background-color: black
+}
+
+#inner-left{
+  width: 100px;
+  height: 50px;
+  border: solid 10px white;
+  border-radius: 5px 1000px .5px 1000px;
+  position: relative;
+  left:90px;
+  top: 37px;
+  background-color: red
+}
+
+.leg1{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 450px;
+  position: absolute;
+  top: 3em;
+  left: -9em;
+  background-color:black;
+  z-index: -1;
+}
+
+
+.leg2{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 450px;
+  position: absolute;
+  top: 3em;
+  left: -100px;
+  background-color:black;
+  z-index: -1;
+}
+
+.leg3{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 450px;
+  position: absolute;
+  top: 3em;
+  left: -40px;
+  background-color:black;
+  z-index: -1;
+}
+
+  .leg4{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 450px;
+  position: absolute;
+  top: 3em;
+  left: 15px;
+  background-color:black;
+  z-index: -1;
+}
+
+ .leg5{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: -80px;
+  background-color:black;
+  z-index: -1;
+}
+
+ .leg6{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: -30px;
+  background-color:black;
+  z-index: -1;
+}
+
+ .leg7{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: 20px;
+  background-color:black;
+  z-index: -1;
+}
+
+ .leg8{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: 70px;
+  background-color:black;
+  z-index: -1;
+}
+
+ .leg9{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: 120px;
+  background-color:black;
+  z-index: -1;
+}
+
+.leg10{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: 170px;
+  background-color:black;
+  z-index: -1;
+}
+
+.leg11{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -6.5em;
+  left: 220px;
+  background-color:black;
+  z-index: -1;
+}
+
+.leg12{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -7em;
+  left: 260px;
+  background-color:black;
+  z-index: -1;
+}
+
+.leg13{
+  width: 10px;
+  height: 100px;
+  border: solid 5px black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 600px;
+  position: absolute;
+  top: -7.5em;
+  left: -340px;
+  background-color:black;
+  z-index: -1;
+}
+
+#infinity {
+    position: relative;
+    width: 1050px;
+    height: 500px;
+    top: -140em;
+    left: 20px;
+    z-index: -1;
+}
+
+#infinity:before,
+#infinity:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+  background-color: black;
+    border: 10px solid darkred;
+  
+    -moz-border-radius: 100px 100px 0 100px;
+         border-radius: 500px 500px 100px 100px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(240deg);
+}
+
+#infinity:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 500px 500px 100px 100px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(120deg);
+}
+
+
+#triangle-topleft1 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -141em;
+  left: 35em;
+  z-index: 1;
+  }
+
+#triangle-topleft2 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -144em;
+  left: 35.9em;
+  z-index: 1;
+  }
+
+#triangle-topleft3 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -147.5em;
+  left: 37em;
+  z-index: 1;
+  }
+
+#triangle-topleft4 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -151em;
+  left: 38em;
+  z-index: 1;
+  }
+
+
+#triangle-topleft5 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -155em;
+  left: 39em;
+  z-index: 1;
+  }
+
+
+
+#triangle-left1 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -161.8em;
+  left: 39.3em;
+  z-index: 1;
+}
+
+#triangle-left2 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -165.5em;
+  left: 39.3em;
+  z-index: 1;
+}
+
+#triangle-left3 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -170em;
+  left: 39.3em;
+  z-index: 1;
+}
+
+#triangle-left4 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -174.5em;
+  left: 39.3em;
+  z-index: 1;
+}
+
+
+#triangle-down1 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 15px solid red;
+   position: relative;
+   top: -177.55em;
+  left: 38.5em;
+  z-index: 1;
+}
+
+#triangle-down2 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 15px solid red;
+   position: relative;
+   top: -179.5em;
+  left: 36.5em;
+  z-index: 1;
+}
+
+#triangle-bottomright1 {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+   position: relative;
+   top: -177em;
+  left: 30.7em;
+  z-index: 1;
+}
+
+#triangle-bottomright2 {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+   position: relative;
+   top: -181em;
+  left: 31.5em;
+  z-index: 1;
+}
+
+#triangle-bottomright3 {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+   position: relative;
+   top: -185em;
+  left: 32.7em;
+  z-index: 1;
+}
+
+
+#triangle-bottomright4 {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+   position: relative;
+   top: -188.5em;
+  left: 34em;
+  z-index: 1;
+}
+
+#triangle-bottomright5 {
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+   position: relative;
+   top: -191.8em;
+  left: 35.3em;
+  z-index: 1;
+}
+
+#triangle-right1 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -188.5em;
+  left: 30.8em;
+  z-index: 1;
+}
+
+#triangle-right2 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -190em;
+  left: 30.9em;
+  z-index: 1;
+}
+
+#triangle-right3 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid red;
+  border-bottom: 15px solid transparent;
+   position: relative;
+   top: -191em;
+  left: 30.9em;
+  z-index: 1;
+}
+
+#triangle-up1 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid red;
+  position: relative;
+   top: -192.5em;
+  left: 30.7em;
+  z-index: 1;
+}
+
+#triangle-up2 {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid red;
+  position: relative;
+   top: -194.6em;
+  left: 32.5em;
+  z-index: 1;
+}
+
+#triangle-topleft6 {
+  width: 5px;
+  height: 5px;
+  border-top: 20px solid red;
+  border-right: 20px solid transparent;
+  position: relative;
+   top: -153em;
+  left: 34em;
+  z-index: 1;
+  }
+
+#container{
+  position: relative;
+   top: 10em;
+  left: 5em;
+}
+
+#legs{
+  position: relative;
+   top: -247em;
+  left: -.8em;
+}
+      

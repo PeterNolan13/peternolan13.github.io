@@ -1,0 +1,58 @@
+head{
+
+}
+body{
+
+	background-image: url('img/waterfall.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+
+	/*background-image: url("./img/waterfall.jpg");
+    background-color: #cccccc;
+    background-size: 100%;*/
+}
+
+/*#wholepage{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}*/
+
+#content{
+	margin: 30px;
+	background-color: transparent;
+	opacity: .9;
+}
+
+h1, p, i {
+	color: white !important;
+	height: 50px; width: 250px;
+
+}
+.row{
+	margin-left: 30px;
+	margin-right:0px;
+}
+
+.row1{
+	margin-left: -50px;
+	margin-right:0px;
+}
+
+
+
+#table{
+	border: 3px solid black;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	width: 500px;
+}
+
+#opening{
+	width: 90% !important;
+	margin-left: 50px !important;
+	text-align: left !important;
+}
+

@@ -1,0 +1,138 @@
+ <!--gtmetrics will tell you why your cite is running slow and how to fix it-->
+
+ <!DOCTYPE html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- NOTE: Need these links for bootstrap https://www.bootstrapcdn.com/-->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <title>Mountain Man Gear</title>
+   <link rel="stylesheet" type="text/css" href="main.css">
+ </head>
+
+
+ <body>
+
+ <!--<div id= "wholepage" style="position: absolute; width: 100%; z-index: 10;">-->
+ <div id="content" style="color: white">
+<div style="text-align: right; width: 100%;">
+
+ <button id="checkout" type="submit" class="btn btn-default">Checkout<span id="numItems">(0)</span></button>
+
+ </div>
+  <h1 style="text-align: center; width: 100%;">Mountain Man Gear</h1>
+
+<div style="text-align: left; width: 100%"">
+  <h3 >Welcome!</h3>
+    <h4><p id="opening">At Mountain Man Gear, our mission is to provide you with practical yet sleek products that make your hiking experience easier and more enjoyable.</p></h4>
+</div>
+
+
+    <table id="table" border="2" style="width: 90%">
+    <div style="width: 100%; text-align: center; font-size: large;">
+      <tr>
+        <th width="200px" id="product"><h4 style="text-align: center;">Product</h4></th>
+        <th width="300px" id="description"><h4 style="text-align: center;">Description</h4></th>
+        <th width="300px" id="image"><h4 style="text-align: center;">Image</h4></th>
+        <th  align="center" id="price"><h4 style="text-align: center;">Price</h4></th>
+        <th width="150px" align="center"><h4 style="text-align: center;">Cart</h4 ></th>
+      </tr>
+    </div>
+
+      <tr>
+        <td align="center"><h2>Hiking Boots</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td><img src="./img/Boots.jpg"></td>
+        <td width="50px" align="center"><h1>$80</h1></td>
+        <td class="add" align="center"> <button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></td>
+
+      </tr>
+      <tr>
+        <td align="center"><h2>Backpack</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td><img src="./img/backpack.jpg"></td>
+        <td width="50px" align="center"><h1>$100</h1></td>
+        <td class="add" align="center"> <button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></td>
+      </tr>
+      <tr>
+        <td align="center"><h2>Tent</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td><img src="./img/tent.jpg"></td>
+        <td width="50px" align="center"><h1>$200</h1></td>
+        <td class="add" align="center"> <button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></td>
+      </tr>
+      <tr>
+        <td align="center"><h2>Canteen</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td><img src="./img/canteen.jpg"></td>
+        <td width="50px" align="center"><h1>$30</h1></td>
+        <td class="add" align="center"><button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart()</button></td>
+      </tr>
+      <tr>
+        <td align="center"><h2>Portable Stove</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td align="center"><img src="./img/stove.jpg"></td>
+        <td width="50px" align="center"><h1>$150<h1></td>
+        <td class="add" align="center"> <button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></td>
+      </tr>
+      <tr>
+        <td align="center"><h2>Pocket Knife</h2></td>
+        <td align="center"><h3>description</h3></td>
+        <td align="center"><img src="./img/knife.jpg"></td>
+        <td width="50px" align="center"><h1>$50</h1></td>
+        <td class="add" align="center"> <button class="btn btn-default""><span class="glyphicon glyphicon-shopping-cart"></span>Add to Cart</button></td>
+      </tr>
+    </table>
+
+  </div>
+
+  
+
+  <section id="contact" class="section green">
+    <div class="container">
+      <h4 style="color: white">Contact Us</h4>
+     <div class="blankdivider30">
+     </div>
+     <div class="row">
+      <div class="span12">
+        <div class="cform" id="contact-form">
+            <div class="row">
+              <div class="span6">
+                <div class="field your-name form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="field your-email form-group">
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="field phone number form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone Number" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="span6">
+                <div class="field message form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <button id="send" type="submit" class="btn btn-theme pull-left">Send Message</button>
+                <p id="sendmessage"></p>
+                <div id="errormessage"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    <!--</div>-->
+  </div>
+</section>
+
+  <script type="text/JavaScript" src="Store.js"></script>  
+</div>
+</div>
+</body>
+</html>
