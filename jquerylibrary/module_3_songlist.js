@@ -1,4 +1,4 @@
-alert('js is working!');
+
 
 $(document).ready(function(){
 	$("#add").on("click", function(){
