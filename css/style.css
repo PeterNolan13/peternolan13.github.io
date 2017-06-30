@@ -40,7 +40,122 @@ CONTENTS:
 @import url('animate.css');
 
 
+/*------------------------------------------------------------------*/
+/* Accordion & Toggle*/
+/*------------------------------------------------------------------*/
+/*.accordion, .toggle {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
 
+    .accordion .accordion-title, .toggle .toggle-title {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .accordion > .accordion-title > a:after, .toggle > .toggle-title > a:after {
+        color: #222;
+        content: "";
+        font-family: "FontAwesome";
+        font-size: 15px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        height: 15px;
+        line-height: 15px;
+        margin-top: -8px;
+        position: absolute;
+        right: 10px;
+        text-align: center;
+        text-transform: none;
+        top: 50%;
+        width: 15px;
+        transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+    }
+
+    .accordion > .accordion-title > a, .toggle > .toggle-title > a {
+        border: 1px solid #f1f1f1;
+        background: #fff;
+        color: #222;
+        display: block;
+        padding: 14px 20px;
+        position: relative;
+        text-decoration: none;
+        transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+        outline: none;
+    }
+
+        .accordion > .accordion-title > a.active, .toggle > .toggle-title > a.active {
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
+            color: #222;
+            cursor: default;
+        }
+
+            .accordion > .accordion-title > a.active:after, .toggle > .toggle-title > a.active:after {*/
+                /*color: #fff;*/
+            /*    content: "";
+            }
+
+    .accordion > .accordion-content, .toggle > .toggle-content {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+        padding: 10px 20px 10px;
+    }*/
+
+
+
+
+/*------------------------------------------------------------------*/
+/* Tabs */
+/*------------------------------------------------------------------*/
+/*ul.icon-tab-nav, .icon-tab-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    ul.icon-tab-nav li, .icon-tab-nav ul li {
+        display: inline-block;
+        width: 200px;
+    }
+
+.icon-tab-nav {
+    display: block;
+}
+
+    .icon-tab-nav a {
+        font-size: 44px;*/
+        /*color: #aaa;*/
+    /*}
+
+    .icon-tab-nav .icon-tab-nav-title {
+        margin-top: 10px;
+    }
+
+    .icon-tab-nav a, .icon-tab-nav .icon-tab-nav-title {
+        transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+    }
+
+        .icon-tab-nav a.active, .icon-tab-nav a.active .icon-tab-nav-title,
+        .icon-tab-nav a:hover, .icon-tab-nav a:hover .icon-tab-nav-title {
+            color: #17a697;
+        }*/
 
 
 
@@ -48,6 +163,8 @@ CONTENTS:
 /* Skills Bar */
 /*------------------------------------------------------------------*/
 
+
+/*
 .skillbar {
     position: relative;
     display: block;
@@ -88,7 +205,7 @@ CONTENTS:
     margin-top: 3px;
     font-size: 12px;
 }
-
+*/
 
 
 
