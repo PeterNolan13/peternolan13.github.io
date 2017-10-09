@@ -556,7 +556,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/Iceland.jpg) no-repeat center center fixed;
+	background: #444 url(../img/CliffsOfMoher.JPG) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -662,7 +662,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background: #3B4551;
+	background: #6d8eb6;
 }
 
 .spacer.green,.section.green h4 {
