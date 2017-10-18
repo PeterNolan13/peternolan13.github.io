@@ -218,9 +218,14 @@ CONTENTS:
 01. General
 ============================================================ */
 
-.navbar-custom {
+/*.navbar-custom {
     color: #FFFFFF;
     background-color: #CC3333;
+}*/
+
+
+#about{
+	background-color: white;
 }
 
 /*========================================================
