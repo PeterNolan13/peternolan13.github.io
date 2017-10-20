@@ -228,6 +228,10 @@ CONTENTS:
 	background-color: white;
 }
 
+hr {
+	border: 1px solid;
+}
+
 /*========================================================
 
 div, article, section, header, footer, nav, li {
